@@ -172,7 +172,7 @@ a.main-filled-button {
   padding: 13px 25px;
   background-color: #fff;
   text-transform: uppercase;
-  color: cyan;
+  color: #5fb759;
   font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
@@ -183,7 +183,7 @@ a.main-filled-button {
 
 a.main-filled-button:hover {
   color: #fff;
-  background-color: darkcyan;
+  background-color: #5fb759;
 }
 
 a.main-button-icon {
