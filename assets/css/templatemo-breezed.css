@@ -788,6 +788,22 @@ banner
   max-width: none;
 }
 
+.img-lm{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-align: center
+}
+
+.img-lm img {
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  display: inline-block;
+  max-width: none;
+}
+
 *,
 *:before,
 *:after {
@@ -817,6 +833,12 @@ banner
 /* ==== Slider Style === */
 .Modern-Slider .item .img-fill{
   height:95vh;
+  background:#000;
+}
+
+/* ==== Slider Style === */
+.Modern-Slider .item .img-lm{
+  height:60vh;
   background:#000;
 }
 
@@ -1113,8 +1135,8 @@ testimonials
 */
 #testimonials {
   margin-top: 120px;
-  padding: 80px 0px;
-  padding: 120px 0px;
+  padding: 60px 0px;
+  padding: 30px 0px; /*h*/
   background-image: url(../images/slide-03.jpg);
   background-position: center center;
   background-repeat: no-repeat;
