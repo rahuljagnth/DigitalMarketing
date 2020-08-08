@@ -1406,15 +1406,20 @@ footer .right-text-content ul li a:hover {
   color: #fff;
 }
 
+
+
+
 @media (max-width: 992px) {
   footer .left-text-content p {
     text-align: center;
     margin-bottom: 30px;
   }
+    
   footer .right-text-content {
     float: none;
     text-align: center;
   }
+   
 }
 
 
